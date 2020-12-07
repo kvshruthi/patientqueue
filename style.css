@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    text-shadow: #4CAF50;
+}
+body {
+  font-family: Arial;
+}
+.search{
+    text-align: right;
+    box-align: left;
+    box-sizing: content-box;
+    
+}
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color:burlywood;
+
+}
+
+table, th,td{
+    border:2px solid black;
+    padding: 5px;
+}
+
+th{
+    font-size: 30px;
+    font-weight :700;
+    
+
+}
+td{
+    font-size: 25px;
+    font-weight: 400;
+}
+.css-serial{
+    counter-reset: serial-number;
+
+}
+.css-serial td:first-child:before{
+    counter-increment: serial-number;
+    content: counter(serial-number);
+}
